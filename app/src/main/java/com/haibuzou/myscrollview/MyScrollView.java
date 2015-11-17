@@ -67,6 +67,7 @@ public class MyScrollView extends FrameLayout {
         int childWidthMeasureSpec;
         int childHeightMeasureSpec;
 
+
         childWidthMeasureSpec = getChildMeasureSpec(parentWidthMeasureSpec, getPaddingLeft()
                 + getPaddingRight(), lp.width);
 
